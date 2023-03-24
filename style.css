@@ -1,0 +1,59 @@
+:root{
+    --red: #c70505;
+    --yellow: #ffe808;
+}
+
+body{
+    background-color: var(--yellow);
+    color: var(--red);
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  width: 16px;
+}
+::-webkit-scrollbar-track {
+    background-image: url('media/tomato.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+::-webkit-scrollbar-thumb {
+    background-image: url('media/mozza.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+}
+
+.bg-pizza{
+    background-image: url('media/pizza.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.masthead {
+  height: 75vh;
+  background-image: url('media/pizza-head.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.btn-pizza{
+    background-image: url('media/pizza.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.border-red{
+    border: solid 8px var(--red);
+}
+.accordion {
+  --bs-accordion-active-bg: var(--red);
+  --bs-accordion-active-color: var(--yellow);
+}
